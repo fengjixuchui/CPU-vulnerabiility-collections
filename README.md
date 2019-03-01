@@ -8,7 +8,7 @@ Meltdown|Meltdown: Reading Kernel Memory from User Space(https://meltdownattack.
 Spectre v1,Bounds Check Bypass&Spectre v2,Branch Target Injection|Spectre Attacks: Exploiting Speculative Execution(https://spectreattack.com/spectre.pdf)
 Spectre v1.1,Bounds Check Bypass on Stores&Spectre v1.2,Read-only Protection Bypass|Speculative Buffer Overflows: Attacks and Defenses(https://arxiv.org/pdf/1807.03757.pdf)
 Spectre v3a,Rogue System Register Read|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3640
-Spectre v4,Speculative Store Bypass|Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/)
+Spectre v4,Speculative Store Bypass|Issue 1528: speculative execution, variant 4: speculative store bypass(https://bugs.chromium.org/p/project-zero/issues/detail?id=1528)
 NetSpectre|NetSpectre: Read Arbitrary Memory over Network(https://arxiv.org/pdf/1807.10535.pdf)
 ret2spec|ret2spec: Speculative Execution Using Return Stack Buffers(https://arxiv.org/pdf/1807.10364.pdf)
 spectreRSB|Spectre Returns! Speculation Attacks using the Return Stack Buffer(https://arxiv.org/pdf/1807.07940.pdf)
@@ -20,8 +20,8 @@ analysis of side-channels and speculative execution|Spectre is here to stay: An 
 MeltdownPrime and SpectrePrime|MeltdownPrime and SpectrePrime: Automatically-Synthesized Attacks Exploiting Invalidation-Based Coherence Protocols(https://arxiv.org/pdf/1802.03802.pdf)
 Spectre-PHT-CA-OP&Spectre-PHT-CA-IP&Spectre-PHT-SA-OP&Spectre-BTB-SA-IP&Spectre-BTB-SA-OP&Meltdown-PK&Meltdown-BND|A Systematic Evaluation of Transient Execution Attacks and Defenses(https://arxiv.org/pdf/1811.05441.pdf)
 System Management Mode Speculative Execution Attacks|System Management Mode Speculative Execution Attacks(https://blog.eclypsium.com/2018/05/17/system-management-mode-speculative-execution-attacks/)
-L1 Terminal Fault for SGX,aka Foreshadow|FORESHADOW: Extracting the Keys to the Intel SGX Kingdom withTransient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow.pdf)
-L1 Terminal Fault for for operating systems and SMM/virtualization,aka Foreshadow-NG|Foreshadow-NG: Breaking the Virtual Memory Abstraction with TransientOut-of-Order Execution(https://foreshadowattack.eu/foreshadow-NG.pdf)
+L1 Terminal Fault for SGX,aka Foreshadow|FORESHADOW: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow.pdf)
+L1 Terminal Fault for for operating systems and SMM/virtualization,aka Foreshadow-NG|Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow-NG.pdf)
 
 2.POC
 
@@ -50,6 +50,8 @@ Reading privileged memory with a side-channel(https://googleprojectzero.blogspot
 Intel LazyFP vulnerability: Exploiting lazy FPU state switching(https://blog.cyberus-technology.de/posts/2018-06-06-intel-lazyfp-vulnerability.html)
 
 Analysis and mitigation of L1 Terminal Fault (L1TF)(https://blogs.technet.microsoft.com/srd/2018/08/14/analysis-and-mitigation-of-l1-terminal-fault-l1tf/) 
+
+Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/
 
 Intel Analysis of Speculative Execution Side Channels(https://software.intel.com/security-software-guidance/api-app/sites/default/files/336983-Intel-Analysis-of-Speculative-Execution-Side-Channels-White-Paper.pdf)
 
