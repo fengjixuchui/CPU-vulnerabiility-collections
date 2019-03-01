@@ -9,6 +9,7 @@ Spectre v1,Bounds Check Bypass&Spectre v2,Branch Target Injection|Spectre Attack
 Spectre v1.1,Bounds Check Bypass on Stores&Spectre v1.2,Read-only Protection Bypass|Speculative Buffer Overflows: Attacks and Defenses(https://arxiv.org/pdf/1807.03757.pdf)
 Spectre v3a,Rogue System Register Read|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3640
 Spectre v4,Speculative Store Bypass|Issue 1528: speculative execution, variant 4: speculative store bypass(https://bugs.chromium.org/p/project-zero/issues/detail?id=1528)
+portsmash|Port Contention for Fun and Profit(https://eprint.iacr.org/2018/1060.pdf)
 NetSpectre|NetSpectre: Read Arbitrary Memory over Network(https://arxiv.org/pdf/1807.10535.pdf)
 ret2spec|ret2spec: Speculative Execution Using Return Stack Buffers(https://arxiv.org/pdf/1807.10364.pdf)
 spectreRSB|Spectre Returns! Speculation Attacks using the Return Stack Buffer(https://arxiv.org/pdf/1807.07940.pdf)
@@ -16,6 +17,7 @@ LazyFP|LazyFP: Leaking FPU Register State using Microarchitectural Side-Channels
 BranchScope|BranchScope: A New Side-Channel Attack onDirectional Branch Predictor (http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf)
 SgxPectre|SgxPectre Attacks: Stealing Intel Secrets from SGX Enclaves via Speculative Execution(https://arxiv.org/pdf/1802.09085.pdf)
 ExSpectre|ExSpectre: Hiding Malware in Speculative Execution(https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_02B-5_Wampler_paper.pdf)
+TLBleed|Translation Leak-aside Buffer: Defeating Cache Side-channel Protectionswith TLB Attacks(https://www.vusec.net/wp-content/uploads/2018/07/tlbleed-author-preprint.pdf)
 analysis of side-channels and speculative execution|Spectre is here to stay: An analysis of side-channels and speculative execution(https://arxiv.org/pdf/1902.05178.pdf)
 MeltdownPrime and SpectrePrime|MeltdownPrime and SpectrePrime: Automatically-Synthesized Attacks Exploiting Invalidation-Based Coherence Protocols(https://arxiv.org/pdf/1802.03802.pdf)
 Spectre-PHT-CA-OP&Spectre-PHT-CA-IP&Spectre-PHT-SA-OP&Spectre-BTB-SA-IP&Spectre-BTB-SA-OP&Meltdown-PK&Meltdown-BND|A Systematic Evaluation of Transient Execution Attacks and Defenses(https://arxiv.org/pdf/1811.05441.pdf)
@@ -28,6 +30,8 @@ L1 Terminal Fault for for operating systems and SMM/virtualization,aka Foreshado
 https://github.com/Eugnis/spectre-attack
 
 https://github.com/paboldin/meltdown-exploit
+
+https://github.com/bbbrumley/portsmash
 
 https://github.com/lsds/spectre-attack-sgx
 
