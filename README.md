@@ -1,8 +1,9 @@
 # CPU-vulnerabiility-collections
 
 1.papers
-description                              |paper
------------------------------------------|--------
+
+description                              |paper|
+-----------------------------------------|--------|
 Meltdown|Meltdown: Reading Kernel Memory from User Space(https://meltdownattack.com/meltdown.pdf)
 Spectre v1,Bounds Check Bypass&Spectre v2,Branch Target Injection|Spectre Attacks: Exploiting Speculative Execution(https://spectreattack.com/spectre.pdf)
 Spectre v1.1,Bounds Check Bypass on Stores&Spectre v1.2,Read-only Protection Bypass|Speculative Buffer Overflows: Attacks and Defenses(https://arxiv.org/pdf/1807.03757.pdf)
@@ -23,6 +24,7 @@ L1 Terminal Fault for SGX,aka Foreshadow|FORESHADOW: Extracting the Keys to the 
 L1 Terminal Fault for for operating systems and SMM,aka Foreshadow-NG&L1 Terminal Fault for virtualization aka Foreshadow-NG|Foreshadow-NG: Breaking the Virtual Memory Abstraction with TransientOut-of-Order Execution(https://foreshadowattack.eu/foreshadow-NG.pdf)
 
 2.POC
+
 https://github.com/Eugnis/spectre-attack
 
 https://github.com/paboldin/meltdown-exploit
@@ -30,11 +32,13 @@ https://github.com/paboldin/meltdown-exploit
 https://github.com/lsds/spectre-attack-sgx
 
 3.check tool
+
 windows:https://github.com/ionescu007/SpecuCheck
 
 linux&BSD:https://github.com/speed47/spectre-meltdown-checker
 
 4.vuln analysis
+
 Into the Implementation of Spectre(https://www.fortinet.com/blog/threat-research/into-the-implementation-of-spectre.html)
 
 Reading privileged memory with a side-channel(https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html)
@@ -50,6 +54,7 @@ Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blog
 Intel Analysis of Speculative Execution Side Channels(https://software.intel.com/security-software-guidance/api-app/sites/default/files/336983-Intel-Analysis-of-Speculative-Execution-Side-Channels-White-Paper.pdf)
 
 5.patch analysis
+
 KPTI补丁分析(https://mp.weixin.qq.com/s/kQaZnqjbdxz6HS8ljLp3zw)
 
 简单看了一下微软新出的内核页表隔离补丁(https://bbs.pediy.com/thread-223805.htm)
@@ -61,6 +66,7 @@ KVA Shadow: Mitigating Meltdown on Windows(https://blogs.technet.microsoft.com/s
 A Deep Dive Analysis of Microsoft’s Kernel Virtual Address Shadow Feature(https://www.fortinet.com/blog/threat-research/a-deep-dive-analysis-of-microsoft-s-kernel-virtual-address-shadow-feature.html)
 
 6.videos
+
 Intel官方解释CPU漏洞原理和补丁的视频(https://www.bilibili.com/video/av21021306/)
 
 Speculative Store Bypass in 3 minutes from Red Hat(https://www.youtube.com/watch?v=Uv6lDgcUAC0)
@@ -68,6 +74,7 @@ Speculative Store Bypass in 3 minutes from Red Hat(https://www.youtube.com/watch
 Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution - Duo Tech Talk(https://www.youtube.com/watch?v=LVeWUq_mciM&feature=youtu.be)
 
 7.others
+
 Exploiting CVE-2018-1038 - Total Meltdown(https://blog.xpnsec.com/total-meltdown-cve-2018-1038/)
 
 eBPF Spectre v1 mitigation is insufficient(https://bugs.chromium.org/p/project-zero/issues/detail?id=1711)
