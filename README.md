@@ -55,7 +55,7 @@ Intel LazyFP vulnerability: Exploiting lazy FPU state switching(https://blog.cyb
 
 Analysis and mitigation of L1 Terminal Fault (L1TF)(https://blogs.technet.microsoft.com/srd/2018/08/14/analysis-and-mitigation-of-l1-terminal-fault-l1tf/) 
 
-Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/
+Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/)
 
 Intel Analysis of Speculative Execution Side Channels(https://software.intel.com/security-software-guidance/api-app/sites/default/files/336983-Intel-Analysis-of-Speculative-Execution-Side-Channels-White-Paper.pdf)
 
@@ -80,8 +80,6 @@ Speculative Store Bypass in 3 minutes from Red Hat(https://www.youtube.com/watch
 Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution - Duo Tech Talk(https://www.youtube.com/watch?v=LVeWUq_mciM&feature=youtu.be)
 
 7.others
-
-https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance
 
 Exploiting CVE-2018-1038 - Total Meltdown(https://blog.xpnsec.com/total-meltdown-cve-2018-1038/)
 
