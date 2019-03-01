@@ -21,7 +21,7 @@ MeltdownPrime and SpectrePrime|MeltdownPrime and SpectrePrime: Automatically-Syn
 Spectre-PHT-CA-OP&Spectre-PHT-CA-IP&Spectre-PHT-SA-OP&Spectre-BTB-SA-IP&Spectre-BTB-SA-OP&Meltdown-PK&Meltdown-BND|A Systematic Evaluation of Transient Execution Attacks and Defenses(https://arxiv.org/pdf/1811.05441.pdf)
 System Management Mode Speculative Execution Attacks|System Management Mode Speculative Execution Attacks(https://blog.eclypsium.com/2018/05/17/system-management-mode-speculative-execution-attacks/)
 L1 Terminal Fault for SGX,aka Foreshadow|FORESHADOW: Extracting the Keys to the Intel SGX Kingdom withTransient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow.pdf)
-L1 Terminal Fault for for operating systems and SMM,aka Foreshadow-NG&L1 Terminal Fault for virtualization aka Foreshadow-NG|Foreshadow-NG: Breaking the Virtual Memory Abstraction with TransientOut-of-Order Execution(https://foreshadowattack.eu/foreshadow-NG.pdf)
+L1 Terminal Fault for for operating systems and SMM/virtualization,aka Foreshadow-NG|Foreshadow-NG: Breaking the Virtual Memory Abstraction with TransientOut-of-Order Execution(https://foreshadowattack.eu/foreshadow-NG.pdf)
 
 2.POC
 
@@ -47,9 +47,9 @@ Reading privileged memory with a side-channel(https://googleprojectzero.blogspot
 
 性能VS安全？CPU芯片漏洞攻击实战(2) - Meltdown获取Linux内核数据(https://paper.seebug.org/499/)
 
-Analysis and mitigation of L1 Terminal Fault (L1TF)(https://blogs.technet.microsoft.com/srd/2018/08/14/analysis-and-mitigation-of-l1-terminal-fault-l1tf/) 
+Intel LazyFP vulnerability: Exploiting lazy FPU state switching(https://blog.cyberus-technology.de/posts/2018-06-06-intel-lazyfp-vulnerability.html)
 
-Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/)
+Analysis and mitigation of L1 Terminal Fault (L1TF)(https://blogs.technet.microsoft.com/srd/2018/08/14/analysis-and-mitigation-of-l1-terminal-fault-l1tf/) 
 
 Intel Analysis of Speculative Execution Side Channels(https://software.intel.com/security-software-guidance/api-app/sites/default/files/336983-Intel-Analysis-of-Speculative-Execution-Side-Channels-White-Paper.pdf)
 
@@ -74,6 +74,8 @@ Speculative Store Bypass in 3 minutes from Red Hat(https://www.youtube.com/watch
 Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution - Duo Tech Talk(https://www.youtube.com/watch?v=LVeWUq_mciM&feature=youtu.be)
 
 7.others
+
+https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance
 
 Exploiting CVE-2018-1038 - Total Meltdown(https://blog.xpnsec.com/total-meltdown-cve-2018-1038/)
 
