@@ -27,13 +27,13 @@ L1 Terminal Fault for for operating systems and SMM/virtualization,aka Foreshado
 
 2.POC
 
-https://github.com/Eugnis/spectre-attack
-
-https://github.com/paboldin/meltdown-exploit
-
 https://github.com/bbbrumley/portsmash
 
+https://github.com/Eugnis/spectre-attack
+
 https://github.com/lsds/spectre-attack-sgx
+
+https://github.com/paboldin/meltdown-exploit
 
 3.check tool
 
@@ -43,13 +43,13 @@ linux&BSD:https://github.com/speed47/spectre-meltdown-checker
 
 4.vuln analysis
 
-Into the Implementation of Spectre(https://www.fortinet.com/blog/threat-research/into-the-implementation-of-spectre.html)
-
-Reading privileged memory with a side-channel(https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html)
-
 性能VS安全？CPU芯片漏洞攻击实战(1) - 破解macOS KASLR篇(https://paper.seebug.org/497/)
 
 性能VS安全？CPU芯片漏洞攻击实战(2) - Meltdown获取Linux内核数据(https://paper.seebug.org/499/)
+
+Into the Implementation of Spectre(https://www.fortinet.com/blog/threat-research/into-the-implementation-of-spectre.html)
+
+Reading privileged memory with a side-channel(https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html)
 
 Intel LazyFP vulnerability: Exploiting lazy FPU state switching(https://blog.cyberus-technology.de/posts/2018-06-06-intel-lazyfp-vulnerability.html)
 
@@ -57,37 +57,55 @@ Analysis and mitigation of L1 Terminal Fault (L1TF)(https://blogs.technet.micros
 
 Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/)
 
-Intel Analysis of Speculative Execution Side Channels(https://software.intel.com/security-software-guidance/api-app/sites/default/files/336983-Intel-Analysis-of-Speculative-Execution-Side-Channels-White-Paper.pdf)
-
 5.patch analysis
+
+5.1.KPTI(Kernel Page Table Isolation)
 
 KPTI补丁分析(https://mp.weixin.qq.com/s/kQaZnqjbdxz6HS8ljLp3zw)
 
-简单看了一下微软新出的内核页表隔离补丁(https://bbs.pediy.com/thread-223805.htm)
+5.2.KVAS(Kernel Virtual Address Shadow)
 
-Spectre mitigations in MSVC(https://blogs.msdn.microsoft.com/vcblog/2018/01/15/spectre-mitigations-in-msvc/)
+简单看了一下微软新出的内核页表隔离补丁(https://bbs.pediy.com/thread-223805.htm)
 
 KVA Shadow: Mitigating Meltdown on Windows(https://blogs.technet.microsoft.com/srd/2018/03/23/kva-shadow-mitigating-meltdown-on-windows/)
 
 A Deep Dive Analysis of Microsoft’s Kernel Virtual Address Shadow Feature(https://www.fortinet.com/blog/threat-research/a-deep-dive-analysis-of-microsoft-s-kernel-virtual-address-shadow-feature.html)
 
+5.3.Retpoline(return trampoline)
+
+Retpoline: The Anti sectre type 2 mitigation in windows(https://www.youtube.com/watch?v=ZfxXjDQRpsU)
+pdf:https://www.slideshare.net/MSbluehat/bluehat-v18-retpoline-the-antispectre-type-2-mitigation-in-windows
+
+Retpoline: a software construct for preventing branch-target-injection(https://support.google.com/faqs/answer/7625886)
+
+Mitigating Spectre variant 2 with Retpoline on Windows(https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Mitigating-Spectre-variant-2-with-Retpoline-on-Windows/ba-p/295618)
+
+5.7.others
+
+Spectre mitigations in MSVC(https://blogs.msdn.microsoft.com/vcblog/2018/01/15/spectre-mitigations-in-msvc/)
+
+Mitigating speculative execution side channel hardware vulnerabilities(https://blogs.technet.microsoft.com/srd/2018/03/15/mitigating-speculative-execution-side-channel-hardware-vulnerabilities/)
+
 6.videos
 
 Intel官方解释CPU漏洞原理和补丁的视频(https://www.bilibili.com/video/av21021306/)
+
+Beyond Belief: Spectre and Meltdown(https://www.youtube.com/watch?v=_4O0zMW-Zu4)
+pdf:https://gruss.cc/files/beyond_belief.pdf
 
 Speculative Store Bypass in 3 minutes from Red Hat(https://www.youtube.com/watch?v=Uv6lDgcUAC0)
 
 Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution - Duo Tech Talk(https://www.youtube.com/watch?v=LVeWUq_mciM)
 
-BlueHat IL 2018 - Daniel Gruss, Moritz Lipp & Michael Schwarz - The Case of Spectre and Meltdown(https://www.youtube.com/watch?v=_4O0zMW-Zu4)
-pdf:https://gruss.cc/files/beyond_belief.pdf
+Exploiting modern microarchitectures: Meltdown, Spectre, and other attacks(https://www.youtube.com/watch?v=2kCDPCgjlJ4)
+pdf:https://people.redhat.com/jcm/talks/FOSDEM_2018.pdf
 
 7.others
+
+https://software.intel.com/security-software-guidance
 
 Exploiting CVE-2018-1038 - Total Meltdown(https://blog.xpnsec.com/total-meltdown-cve-2018-1038/)
 
 Issue 1711: Linux: eBPF Spectre v1 mitigation is insufficient(https://bugs.chromium.org/p/project-zero/issues/detail?id=1711)
 
 Detecting Attacks that Exploit Meltdown and Spectre with Performance Counters(https://blog.trendmicro.com/trendlabs-security-intelligence/detecting-attacks-that-exploit-meltdown-and-spectre-with-performance-counters/)
-
-Intel® Software Guard Extensions(SGX) SW Development Guidance for Potential Bounds Check Bypass Side Channel Exploits(https://software.intel.com/sites/default/files/managed/e1/ec/SGX_SDK_Developer_Guidance-CVE-2017-5753.pdf)
