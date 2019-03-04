@@ -27,9 +27,9 @@ L1 Terminal Fault for for operating systems and SMM/virtualization,aka Foreshado
 
 2.POC
 
-https://github.com/bbbrumley/portsmash
-
 https://github.com/Eugnis/spectre-attack
+
+https://github.com/bbbrumley/portsmash
 
 https://github.com/lsds/spectre-attack-sgx
 
@@ -95,10 +95,10 @@ pdf:https://gruss.cc/files/beyond_belief.pdf
 
 Speculative Store Bypass in 3 minutes from Red Hat(https://www.youtube.com/watch?v=Uv6lDgcUAC0)
 
-Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution - Duo Tech Talk(https://www.youtube.com/watch?v=LVeWUq_mciM)
-
 Exploiting modern microarchitectures: Meltdown, Spectre, and other attacks(https://www.youtube.com/watch?v=2kCDPCgjlJ4)
 pdf:https://people.redhat.com/jcm/talks/FOSDEM_2018.pdf
+
+Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution(https://www.youtube.com/watch?v=LVeWUq_mciM)
 
 7.others
 
