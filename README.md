@@ -1,6 +1,6 @@
 # CPU-vulnerabiility-collections
 
-1.papers
+# 1.papers
 
 description                              |paper|
 -----------------------------------------|--------|
@@ -25,7 +25,7 @@ System Management Mode Speculative Execution Attacks|System Management Mode Spec
 L1 Terminal Fault for SGX,aka Foreshadow|FORESHADOW: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow.pdf)
 L1 Terminal Fault for for operating systems and SMM/virtualization,aka Foreshadow-NG|Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow-NG.pdf)
 
-2.POC
+# 2.POC
 
 https://github.com/Eugnis/spectre-attack
 
@@ -35,13 +35,13 @@ https://github.com/lsds/spectre-attack-sgx
 
 https://github.com/paboldin/meltdown-exploit
 
-3.check tool
+# 3.check tool
 
 windows:https://github.com/ionescu007/SpecuCheck
 
 linux&BSD:https://github.com/speed47/spectre-meltdown-checker
 
-4.vuln analysis
+# 4.vuln analysis
 
 性能VS安全？CPU芯片漏洞攻击实战(1) - 破解macOS KASLR篇(https://paper.seebug.org/497/)
 
@@ -59,13 +59,13 @@ Analysis and mitigation of L1 Terminal Fault (L1TF)(https://blogs.technet.micros
 
 Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/)
 
-5.patch analysis
+# 5.patch analysis
 
-5.1.KPTI(Kernel Page Table Isolation)
+## 5.1.KPTI(Kernel Page Table Isolation)
 
 KPTI补丁分析(https://mp.weixin.qq.com/s/kQaZnqjbdxz6HS8ljLp3zw)
 
-5.2.KVAS(Kernel Virtual Address Shadow)
+## 5.2.KVAS(Kernel Virtual Address Shadow)
 
 简单看了一下微软新出的内核页表隔离补丁(https://bbs.pediy.com/thread-223805.htm)
 
@@ -73,7 +73,7 @@ KVA Shadow: Mitigating Meltdown on Windows(https://blogs.technet.microsoft.com/s
 
 A Deep Dive Analysis of Microsoft’s Kernel Virtual Address Shadow Feature(https://www.fortinet.com/blog/threat-research/a-deep-dive-analysis-of-microsoft-s-kernel-virtual-address-shadow-feature.html)
 
-5.3.Retpoline(return trampoline)
+## 5.3.Retpoline(return trampoline)
 
 Retpoline: The Anti sectre type 2 mitigation in windows(https://www.youtube.com/watch?v=ZfxXjDQRpsU)
 
@@ -83,13 +83,13 @@ Retpoline: a software construct for preventing branch-target-injection(https://s
 
 Mitigating Spectre variant 2 with Retpoline on Windows(https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Mitigating-Spectre-variant-2-with-Retpoline-on-Windows/ba-p/295618)
 
-5.4.others
+## 5.4.others
 
 Spectre mitigations in MSVC(https://blogs.msdn.microsoft.com/vcblog/2018/01/15/spectre-mitigations-in-msvc/)
 
 Mitigating speculative execution side channel hardware vulnerabilities(https://blogs.technet.microsoft.com/srd/2018/03/15/mitigating-speculative-execution-side-channel-hardware-vulnerabilities/)
 
-6.videos
+# 6.videos
 
 Intel官方解释CPU漏洞原理和补丁的视频(https://www.bilibili.com/video/av21021306/)
 
@@ -103,7 +103,7 @@ Exploiting modern microarchitectures: Meltdown, Spectre, and other attacks(https
 
 **pdf:https://people.redhat.com/jcm/talks/FOSDEM_2018.pdf**
 
-7.others
+# 7.others
 
 https://software.intel.com/security-software-guidance
 
