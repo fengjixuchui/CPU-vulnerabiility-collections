@@ -75,13 +75,13 @@ A Deep Dive Analysis of Microsoft’s Kernel Virtual Address Shadow Feature(http
 
 Retpoline: The Anti sectre type 2 mitigation in windows(https://www.youtube.com/watch?v=ZfxXjDQRpsU)
 
-pdf:https://www.slideshare.net/MSbluehat/bluehat-v18-retpoline-the-antispectre-type-2-mitigation-in-windows
+**pdf:https://www.slideshare.net/MSbluehat/bluehat-v18-retpoline-the-antispectre-type-2-mitigation-in-windows**
 
 Retpoline: a software construct for preventing branch-target-injection(https://support.google.com/faqs/answer/7625886)
 
 Mitigating Spectre variant 2 with Retpoline on Windows(https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Mitigating-Spectre-variant-2-with-Retpoline-on-Windows/ba-p/295618)
 
-5.7.others
+5.4.others
 
 Spectre mitigations in MSVC(https://blogs.msdn.microsoft.com/vcblog/2018/01/15/spectre-mitigations-in-msvc/)
 
@@ -93,13 +93,13 @@ Intel官方解释CPU漏洞原理和补丁的视频(https://www.bilibili.com/vide
 
 Beyond Belief: Spectre and Meltdown(https://www.youtube.com/watch?v=_4O0zMW-Zu4)
 
-pdf:https://gruss.cc/files/beyond_belief.pdf
+**pdf:https://gruss.cc/files/beyond_belief.pdf**
 
 Speculative Store Bypass in 3 minutes from Red Hat(https://www.youtube.com/watch?v=Uv6lDgcUAC0)
 
 Exploiting modern microarchitectures: Meltdown, Spectre, and other attacks(https://www.youtube.com/watch?v=2kCDPCgjlJ4)
 
-pdf:https://people.redhat.com/jcm/talks/FOSDEM_2018.pdf
+**pdf:https://people.redhat.com/jcm/talks/FOSDEM_2018.pdf**
 
 Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution(https://www.youtube.com/watch?v=LVeWUq_mciM)
 
