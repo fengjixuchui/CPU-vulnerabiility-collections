@@ -77,7 +77,10 @@ Intel官方解释CPU漏洞原理和补丁的视频(https://www.bilibili.com/vide
 
 Speculative Store Bypass in 3 minutes from Red Hat(https://www.youtube.com/watch?v=Uv6lDgcUAC0)
 
-Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution - Duo Tech Talk(https://www.youtube.com/watch?v=LVeWUq_mciM&feature=youtu.be)
+Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution - Duo Tech Talk(https://www.youtube.com/watch?v=LVeWUq_mciM)
+
+BlueHat IL 2018 - Daniel Gruss, Moritz Lipp & Michael Schwarz - The Case of Spectre and Meltdown(https://www.youtube.com/watch?v=_4O0zMW-Zu4)
+pdf:https://gruss.cc/files/beyond_belief.pdf
 
 7.others
 
