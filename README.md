@@ -49,6 +49,8 @@ linux&BSD:https://github.com/speed47/spectre-meltdown-checker
 
 Into the Implementation of Spectre(https://www.fortinet.com/blog/threat-research/into-the-implementation-of-spectre.html)
 
+Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution(https://www.youtube.com/watch?v=LVeWUq_mciM)
+
 Reading privileged memory with a side-channel(https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html)
 
 Intel LazyFP vulnerability: Exploiting lazy FPU state switching(https://blog.cyberus-technology.de/posts/2018-06-06-intel-lazyfp-vulnerability.html)
@@ -100,8 +102,6 @@ Speculative Store Bypass in 3 minutes from Red Hat(https://www.youtube.com/watch
 Exploiting modern microarchitectures: Meltdown, Spectre, and other attacks(https://www.youtube.com/watch?v=2kCDPCgjlJ4)
 
 **pdf:https://people.redhat.com/jcm/talks/FOSDEM_2018.pdf**
-
-Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution(https://www.youtube.com/watch?v=LVeWUq_mciM)
 
 7.others
 
