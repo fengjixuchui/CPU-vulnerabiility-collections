@@ -74,6 +74,7 @@ A Deep Dive Analysis of Microsoft’s Kernel Virtual Address Shadow Feature(http
 5.3.Retpoline(return trampoline)
 
 Retpoline: The Anti sectre type 2 mitigation in windows(https://www.youtube.com/watch?v=ZfxXjDQRpsU)
+
 pdf:https://www.slideshare.net/MSbluehat/bluehat-v18-retpoline-the-antispectre-type-2-mitigation-in-windows
 
 Retpoline: a software construct for preventing branch-target-injection(https://support.google.com/faqs/answer/7625886)
@@ -91,11 +92,13 @@ Mitigating speculative execution side channel hardware vulnerabilities(https://b
 Intel官方解释CPU漏洞原理和补丁的视频(https://www.bilibili.com/video/av21021306/)
 
 Beyond Belief: Spectre and Meltdown(https://www.youtube.com/watch?v=_4O0zMW-Zu4)
+
 pdf:https://gruss.cc/files/beyond_belief.pdf
 
 Speculative Store Bypass in 3 minutes from Red Hat(https://www.youtube.com/watch?v=Uv6lDgcUAC0)
 
 Exploiting modern microarchitectures: Meltdown, Spectre, and other attacks(https://www.youtube.com/watch?v=2kCDPCgjlJ4)
+
 pdf:https://people.redhat.com/jcm/talks/FOSDEM_2018.pdf
 
 Foreshadow: Breaking the Virtual Memory Abstraction with Speculative Execution(https://www.youtube.com/watch?v=LVeWUq_mciM)
