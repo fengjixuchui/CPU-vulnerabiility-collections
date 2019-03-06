@@ -25,6 +25,7 @@ System Management Mode Speculative Execution Attacks|System Management Mode Spec
 L1 Terminal Fault for SGX,aka Foreshadow|FORESHADOW: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow.pdf)
 L1 Terminal Fault for for operating systems and SMM/virtualization,aka Foreshadow-NG|Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow-NG.pdf)
 SPOILER|SPOILER: Speculative Load Hazards Boost Rowhammer and Cache Attacks(https://arxiv.org/pdf/1903.00446.pdf)
+SMoTherSpectre|SMoTherSpectre: exploiting speculative execution through port contention(https://arxiv.org/pdf/1903.01843.pdf)
 
 # 2.POC
 
