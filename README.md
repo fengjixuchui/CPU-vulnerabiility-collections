@@ -15,7 +15,11 @@
 <tr>
 	<td>Meltdown(Spectre v3)&Spectre v1,Bounds Check Bypass&amp;Spectre v2,Branch Target Injection</td>
 	<td>Meltdown: Reading Kernel Memory from User Space(https://meltdownattack.com/meltdown.pdf) Spectre Attacks: Exploiting Speculative Execution(https://spectreattack.com/spectre.pdf)</td>
-	<td>Reading privileged memory with a side-channel(https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html) 性能VS安全？CPU芯片漏洞攻击实战(1) - 破解macOS KASLR篇(https://paper.seebug.org/497/) 性能VS安全？CPU芯片漏洞攻击实战(2) - Meltdown获取Linux内核数据(https://paper.seebug.org/499/) Into the Implementation of Spectre(https://www.fortinet.com/blog/threat-research/into-the-implementation-of-spectre.html)</td>
+	<td>
+		Reading privileged memory with a side-channel(https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html)<br/>
+		性能VS安全？CPU芯片漏洞攻击实战(1) - 破解macOS KASLR篇(https://paper.seebug.org/497/)<br/>
+		性能VS安全？CPU芯片漏洞攻击实战(2) - Meltdown获取Linux内核数据(https://paper.seebug.org/499/)<br/>
+		Into the Implementation of Spectre(https://www.fortinet.com/blog/threat-research/into-the-implementation-of-spectre.html)</td>
 	<td>https://github.com/IAIK/meltdown</td>
 </tr>
 <tr>
@@ -33,7 +37,9 @@
 <tr>
 	<td>Spectre v4,Speculative Store Bypass</td>
 	<td></td>
-	<td>Issue 1528: speculative execution, variant 4: speculative store bypass(https://bugs.chromium.org/p/project-zero/issues/detail?id=1528) Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/)</td>
+	<td>
+		Issue 1528: speculative execution, variant 4: speculative store bypass(https://bugs.chromium.org/p/project-zero/issues/detail?id=1528)<br/> 
+		Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/)</td>
 	<td>provided in the blog</td>
 </tr>
 <tr>
@@ -116,7 +122,9 @@
 </tr>
 <tr>
 	<td>Foreshadow&amp;Foreshadow-NG</td>
-	<td>FORESHADOW: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow.pdf) Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow-NG.pdf)</td>
+	<td>
+		FORESHADOW: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow.pdf)<br/>
+		Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow-NG.pdf)</td>
 	<td>Analysis and mitigation of L1 Terminal Fault (L1TF)(https://blogs.technet.microsoft.com/srd/2018/08/14/analysis-and-mitigation-of-l1-terminal-fault-l1tf/)</td>
 	<td>https://github.com/gregvish/l1tf-poc</td>
 </tr>
