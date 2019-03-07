@@ -20,7 +20,9 @@
 		性能VS安全？CPU芯片漏洞攻击实战(1) - 破解macOS KASLR篇(https://paper.seebug.org/497/)<br/>
 		性能VS安全？CPU芯片漏洞攻击实战(2) - Meltdown获取Linux内核数据(https://paper.seebug.org/499/)<br/>
 		Into the Implementation of Spectre(https://www.fortinet.com/blog/threat-research/into-the-implementation-of-spectre.html)</td>
-	<td>https://github.com/IAIK/meltdown</td>
+	<td>
+		https://github.com/paboldin/meltdown-exploit<br/>
+		https://github.com/Eugnis/spectre-attack</td>
 </tr>
 <tr>
 	<td>Spectre v1.1,Bounds Check Bypass on Stores&amp;Spectre v1.2,Read-only Protection Bypass</td>
