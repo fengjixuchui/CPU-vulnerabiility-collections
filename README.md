@@ -5,7 +5,6 @@
 <table>
 <thead>
 <tr>
-	<th>description</th>
 	<th>paper</th>
 	<th>blog</th>
 	<th>POC</th>
@@ -13,8 +12,7 @@
 </thead>
 <tbody>
 <tr>
-	<td>Meltdown(Spectre v3)&Spectre v1,Bounds Check Bypass&amp;Spectre v2,Branch Target Injection</td>
-	<td>Meltdown: Reading Kernel Memory from User Space(https://meltdownattack.com/meltdown.pdf) Spectre Attacks: Exploiting Speculative Execution(https://spectreattack.com/spectre.pdf)</td>
+	<td>Meltdown: Reading Kernel Memory from User Space(https://meltdownattack.com/meltdown.pdf)<br/>Spectre Attacks: Exploiting Speculative Execution(https://spectreattack.com/spectre.pdf)<br/>(Spectre v1&amp;Spectre v2)</td>
 	<td>
 		Reading privileged memory with a side-channel(https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html)<br/>
 		性能VS安全？CPU芯片漏洞攻击实战(1) - 破解macOS KASLR篇(https://paper.seebug.org/497/)<br/>
@@ -25,105 +23,88 @@
 		https://github.com/Eugnis/spectre-attack</td>
 </tr>
 <tr>
-	<td>Spectre v1.1,Bounds Check Bypass on Stores&amp;Spectre v1.2,Read-only Protection Bypass</td>
-	<td>Speculative Buffer Overflows: Attacks and Defenses(https://arxiv.org/pdf/1807.03757.pdf)</td>
+	<td>Speculative Buffer Overflows: Attacks and Defenses(https://arxiv.org/pdf/1807.03757.pdf)<br/>(Spectre v1.1&amp;Spectre v1.2)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>Spectre v3a,Rogue System Register Read</td>
-	<td>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3640</td>
+	<td>https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3640<br/>(Spectre v3a)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>Spectre v4,Speculative Store Bypass</td>
 	<td></td>
 	<td>
 		Issue 1528: speculative execution, variant 4: speculative store bypass(https://bugs.chromium.org/p/project-zero/issues/detail?id=1528)<br/> 
-		Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/)</td>
+		Analysis and mitigation of speculative store bypass (CVE-2018-3639)(https://blogs.technet.microsoft.com/srd/2018/05/21/analysis-and-mitigation-of-speculative-store-bypass-cve-2018-3639/)<br/>(Spectre v4)</td>
 	<td>provided in the blog</td>
 </tr>
 <tr>
-	<td>portsmash</td>
 	<td>Port Contention for Fun and Profit(https://eprint.iacr.org/2018/1060.pdf)</td>
 	<td></td>
 	<td>https://github.com/bbbrumley/portsmash</td>
 </tr>
 <tr>
-	<td>NetSpectre</td>
 	<td>NetSpectre: Read Arbitrary Memory over Network(https://arxiv.org/pdf/1807.10535.pdf)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>ret2spec</td>
 	<td>ret2spec: Speculative Execution Using Return Stack Buffers(https://arxiv.org/pdf/1807.10364.pdf)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>spectreRSB</td>
 	<td>Spectre Returns! Speculation Attacks using the Return Stack Buffer(https://arxiv.org/pdf/1807.07940.pdf)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>LazyFP</td>
 	<td>LazyFP: Leaking FPU Register State using Microarchitectural Side-Channels(https://arxiv.org/pdf/1806.07480.pdf)</td>
 	<td>Intel LazyFP vulnerability: Exploiting lazy FPU state switching(https://blog.cyberus-technology.de/posts/2018-06-06-intel-lazyfp-vulnerability.html)</td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>BranchScope</td>
 	<td>BranchScope: A New Side-Channel Attack on Directional Branch Predictor(http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>SgxPectre</td>
 	<td>SgxPectre Attacks: Stealing Intel Secrets from SGX Enclaves via Speculative Execution(https://arxiv.org/pdf/1802.09085.pdf)</td>
 	<td></td>
 	<td>https://github.com/osusecLab/SgxPectre</td>
 </tr>
 <tr>
-	<td>ExSpectre</td>
 	<td>ExSpectre: Hiding Malware in Speculative Execution(https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_02B-5_Wampler_paper.pdf)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>TLBleed</td>
 	<td>Translation Leak-aside Buffer: Defeating Cache Side-channel Protections with TLB Attacks(https://www.vusec.net/wp-content/uploads/2018/07/tlbleed-author-preprint.pdf)</td>
 	<td>&nbsp;</td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>analysis of side-channels and speculative execution</td>
 	<td>Spectre is here to stay: An analysis of side-channels and speculative execution(https://arxiv.org/pdf/1902.05178.pdf)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>MeltdownPrime and SpectrePrime</td>
 	<td>MeltdownPrime and SpectrePrime: Automatically-Synthesized Attacks Exploiting Invalidation-Based Coherence Protocols(https://arxiv.org/pdf/1802.03802.pdf)</td>
 	<td></td>
 	<td>provided in the paper</td>
 </tr>
 <tr>
-	<td>Spectre-PHT-CA-OP&amp;Spectre-PHT-CA-IP&amp;Spectre-PHT-SA-OP&amp;Spectre-BTB-SA-IP&amp;Spectre-BTB-SA-OP&amp;Meltdown-PK&amp;Meltdown-BND</td>
 	<td>A Systematic Evaluation of Transient Execution Attacks and Defenses(https://arxiv.org/pdf/1811.05441.pdf)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>System Management Mode Speculative Execution Attacks</td>
 	<td>System Management Mode Speculative Execution Attacks(https://blog.eclypsium.com/2018/05/17/system-management-mode-speculative-execution-attacks/)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>Foreshadow&amp;Foreshadow-NG</td>
 	<td>
 		FORESHADOW: Extracting the Keys to the Intel SGX Kingdom with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow.pdf)<br/>
 		Foreshadow-NG: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution(https://foreshadowattack.eu/foreshadow-NG.pdf)</td>
@@ -131,13 +112,11 @@
 	<td>https://github.com/gregvish/l1tf-poc</td>
 </tr>
 <tr>
-	<td>SPOILER</td>
 	<td>SPOILER: Speculative Load Hazards Boost Rowhammer and Cache Attacks(https://arxiv.org/pdf/1903.00446.pdf)</td>
 	<td></td>
 	<td>&nbsp;</td>
 </tr>
 <tr>
-	<td>SMoTherSpectre</td>
 	<td>SMoTherSpectre: exploiting speculative execution through port contention(https://arxiv.org/pdf/1903.01843.pdf)</td>
 	<td>SMoTherSpectre: transient execution attacks through port contention(http://nebelwelt.net/blog/20190306-SMoTherSpectre.html)</td>
 	<td>https://github.com/HexHive/SMoTherSpectre</td>
