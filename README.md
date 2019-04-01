@@ -57,7 +57,7 @@
 <tr>
 	<td>
 		NetSpectre: Read Arbitrary Memory over Network(https://arxiv.org/pdf/1807.10535.pdf)<br/>
-		NetSpectre：A Truly Remote Spectre Variant(https://i.blackhat.com/asia-19/Thu-March-28/bh-asia-Schwarz-NetSpectre-A-Truly-Remote-Spectre-Variant.pdf)
+		NetSpectre: A Truly Remote Spectre Variant(https://i.blackhat.com/asia-19/Thu-March-28/bh-asia-Schwarz-NetSpectre-A-Truly-Remote-Spectre-Variant.pdf)
 	</td>
 	<td></td>
 	<td></td>
