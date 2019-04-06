@@ -1,4 +1,4 @@
-# CPU-vulnerabiility-collections
+# CPU-vulnerability-collections
 
 # 1.papers
 
