@@ -1,4 +1,4 @@
-# CPU-vulnerabiility-collections
+# CPU-vulnerability-collections
 
 # 1.papers
 
@@ -55,7 +55,10 @@
 	<td>https://github.com/bbbrumley/portsmash</td>
 </tr>
 <tr>
-	<td>NetSpectre: Read Arbitrary Memory over Network(https://arxiv.org/pdf/1807.10535.pdf)</td>
+	<td>
+		NetSpectre: Read Arbitrary Memory over Network(https://arxiv.org/pdf/1807.10535.pdf)<br/>
+		NetSpectre: A Truly Remote Spectre Variant(https://i.blackhat.com/asia-19/Thu-March-28/bh-asia-Schwarz-NetSpectre-A-Truly-Remote-Spectre-Variant.pdf)
+	</td>
 	<td></td>
 	<td></td>
 </tr>
@@ -180,5 +183,7 @@ Exploiting CVE-2018-1038 - Total Meltdown(https://blog.xpnsec.com/total-meltdown
 Issue 1711: Linux: eBPF Spectre v1 mitigation is insufficient(https://bugs.chromium.org/p/project-zero/issues/detail?id=1711)
 
 (some notes about this by me:CVE-2018-3639/CVE-2019-7308—Spectre攻击linux内核ebpf的分析(https://xz.aliyun.com/t/4230))
+
+Oh No! KPTI DefeatedUnauthorized Data Leakage is Still Possible(https://i.blackhat.com/asia-19/Fri-March-29/bh-asia-Cheng-Oh-No-KPTI-Defeated-Unauthorized-Data-Leakage-is-Still-Possible.pdf)
 
 Detecting Attacks that Exploit Meltdown and Spectre with Performance Counters(https://blog.trendmicro.com/trendlabs-security-intelligence/detecting-attacks-that-exploit-meltdown-and-spectre-with-performance-counters/)
