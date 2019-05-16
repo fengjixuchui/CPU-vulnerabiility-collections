@@ -135,14 +135,36 @@
 	<td>SMoTherSpectre: transient execution attacks through port contention(http://nebelwelt.net/blog/20190306-SMoTherSpectre.html)</td>
 	<td>https://github.com/HexHive/SMoTherSpectre</td>
 </tr>
+<tr>
+	<td>ZombieLoad: Cross-Privilege-Boundary Data Sampling(https://zombieloadattack.com/zombieload.pdf)</td>
+	<td>ZombieLoad: Cross Privilege-Boundary Data Leakage(https://www.cyberus-technology.de/posts/2019-05-14-zombieload.html)</td>
+	<td>https://github.com/IAIK/ZombieLoad</td>
+</tr>	
+<tr>
+	<td>RIDL: Rogue In-Flight Data Load(https://mdsattacks.com/files/ridl.pdf)</td>
+	<td></td>
+	<td></td>
+</tr>	
+<tr>
+	<td>Fallout: Reading Kernel Writes From User Space(https://mdsattacks.com/files/fallout.pdf)</td>
+	<td></td>
+	<td></td>
+</tr>	
+<tr>
+	<td>Store-to-Leak Forwarding: Leaking Data on Meltdown-resistant CPUs(https://cpu.fail/store_to_leak_forwarding.pdf)</td>
+	<td></td>
+	<td></td>
+</tr>	
 </tbody>
 </table>
 
 # 2.check tool
 
-windows:https://github.com/ionescu007/SpecuCheck
+https://github.com/vusec/ridl
 
-linux&BSD:https://github.com/speed47/spectre-meltdown-checker
+https://github.com/ionescu007/SpecuCheck
+
+https://github.com/speed47/spectre-meltdown-checker
 
 # 3.patch analysis
 
