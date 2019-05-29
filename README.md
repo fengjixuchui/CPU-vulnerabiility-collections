@@ -200,6 +200,8 @@ Mitigating speculative execution side channel hardware vulnerabilities(https://b
 
 https://software.intel.com/security-software-guidance
 
+https://www.amd.com/system/files/documents/security-whitepaper.pdf
+
 Exploiting CVE-2018-1038 - Total Meltdown(https://blog.xpnsec.com/total-meltdown-cve-2018-1038/)
 
 Issue 1711: Linux: eBPF Spectre v1 mitigation is insufficient(https://bugs.chromium.org/p/project-zero/issues/detail?id=1711)
