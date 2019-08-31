@@ -155,6 +155,11 @@
 	<td></td>
 	<td></td>
 </tr>	
+<tr>
+	<td>Bypassing KPTI Using the Speculative Behavior of the SWAPGS Instruction(https://businessresources.bitdefender.com/hubfs/noindex/Bitdefender-WhitePaper-SWAPGS.pdf)</td>
+	<td></td>
+	<td></td>
+</tr>	
 </tbody>
 </table>
 
