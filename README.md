@@ -160,6 +160,14 @@
 	<td></td>
 	<td></td>
 </tr>	
+<tr>
+	<td>
+	VoltJockey: Breaking SGX by Software-Controlled Voltage-Induced Hardware Faults(http://voltjockey.com/flies/paper/2.pdf)<br/>
+	VoltJockey: Breaching TrustZone by Software-Controlled Voltage Manipulation over Multi-core Frequencies(http://voltjockey.com/flies/paper/1.pdf)
+	</td>
+	<td></td>
+	<td></td>
+</tr>	
 </tbody>
 </table>
 
