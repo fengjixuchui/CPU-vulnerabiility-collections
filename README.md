@@ -158,7 +158,7 @@
 <tr>
 	<td>Bypassing KPTI Using the Speculative Behavior of the SWAPGS Instruction(https://businessresources.bitdefender.com/hubfs/noindex/Bitdefender-WhitePaper-SWAPGS.pdf)</td>
 	<td></td>
-	<td></td>
+	<td>https://github.com/bitdefender/swapgs-attack-poc</td>
 </tr>	
 <tr>
 	<td>
@@ -167,7 +167,14 @@
 	</td>
 	<td></td>
 	<td></td>
-</tr>	
+</tr>
+<tr>
+	<td>
+	CacheOut: Leaking Data on Intel CPUs via Cache Evictions(https://cacheoutattack.com/CacheOut.pdf)
+	</td>
+	<td></td>
+	<td></td>
+</tr>
 </tbody>
 </table>
 
